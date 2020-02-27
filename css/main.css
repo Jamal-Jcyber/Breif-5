@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto';
+}
 .asideBar a{
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -7,9 +10,88 @@
     display: block;
     transition: 0.3s;
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
+.search-container{
+    margin-top: 10px;
 
+}
 .asideBar{
     background-color: #413D6E;
-    height: 1000px;
+    height: 900px;
+    width: 400px;
+}
+.aside{
+    width: 400px !important;
+}
+.fa-arrow-right:before {
+margin-left: 50px;
+}
+
+.sp-img{
+    width: 500px !important;
+    margin-left: 50px;
+    margin-top: 0px;
+}
+.im{
+    margin-left: -200px;
+}
+.imm{
+    margin-left: -38px;
+}
+.h3m{
+    margin-left: -160px;
+}
+.fa-step-forward{
+    margin-left: 40px;
+}
+.fa-play{
+    margin-left: 270px;
+}
+.fa-step-backward{
+margin-right: -225px;
+    margin-left: 230px;
+}
+.fa-picture-o{
+    margin-right: -78px;
+    margin-left: 77px;
+}
+.fa-ellipsis-v{
+    margin-left: 171px;
+}
+
+input{
+    width: 85%;
+    border: none;
+    background-color: #F5FAFC;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+
+hr{
+    width: 450px;
+    margin-top: 40px;
+    opacity: 15%;
+}
+.sp1 {
+    margin-left: 100px;
+}
+.sp2{
+    margin-left: 75px;
+}
+.sp3{
+    margin-left: 129px;
+}
+
+span{
+    margin-left: 50px;
+}
+
+.cool{
+    margin-left: 50px !important;
+
+}
+.view{
+    background-color: #EDF1F4;
 }

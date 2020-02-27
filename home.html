@@ -10,22 +10,23 @@
     <link rel="stylesheet" href="css/flexboxgrid.min.css">
 </head>
 <body>
-    
-    <i class="fa fa-book"></i>
 
 <section id="main-page">
     <div class="container-fluid">
         
         <div class="row">
-            <div class="col-md-4 col-lg-4">
+            <div class="col-md-4 col-lg-4 aside">
                 <!-- asidebar -->
                 <div class="asideBar">
-                    <a href="#"><i class="f">Quick Access</i></a>
-                    <a href="#"><i class="fa fa-cloud" aria-hidden="true">One Drive</i></a>
-                    <a href="#"><i class="fa fa-desktop" aria-hidden="true"> This PC</i></a>
-                    <a href="#"><i>Removable Disks</i></a>
-                    <a href="#"><i>Network</i></a>
-                    
+                    <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+                    <div class="dropdown-content">
+                        <a href="#"><i class="fa fa-arrow-left" aria-hidden="true"></i><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-bolt" aria-hidden="true"> Quick Access</i><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-cloud" aria-hidden="true"> One Drive</i><i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-desktop" aria-hidden="true"> This PC</i><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-microchip" aria-hidden="true"></i> Removable Disks</a>
+                        <a href="#"><i class="fa fa-wifi" aria-hidden="true"> Network</i></a>
+                    </div>
                 </div>
             </div>
 
@@ -37,7 +38,8 @@
                             <div class="search-container">
                                 <form action="/action_page.php">
                                   <input type="text" placeholder="Search.." name="search">
-                                  <button type="submit">Submit</button>
+                                  <i class="fas fa-search"></i>
+                                  <!-- <button type="submit">Submit</button> -->
                                 </form>
                               </div>
                         </header>
@@ -63,49 +65,104 @@
                     <div class="col-md-6 col-lg-6">
                         <!-- Gallery -->
                         <div class="row">
-                            <div class="col-md-6 col-lg-6 center-md center-lg">
-                                <img src="pictures/Path -1.png" alt="" srcset="">
-                                <h3>Nike shoes</h3>
+                            <div class="col-md-6 col-lg-6 center-sm center-md center-lg">
+                                <img src="pictures/Path 24@2x.png" alt="" srcset="" class="im">
+                                <h3 class="h3m">Nike shoes</h3>
                             </div>
-                            <div class="col-md-6 col-lg-6 center-md center-lg">
-                                <img src="pictures/Path -2.png" alt="" srcset="">
-                                <h3>Nike shoes</h3>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-lg-6 center-md center-lg">
-                                <img src="pictures/Path -1.png" alt="" srcset="">
-                                <h3>Nike shoes</h3>
-                            </div>
-                            <div class="col-md-6 col-lg-6 center-md center-lg">
-                                <img src="pictures/Path -2.png" alt="" srcset="">
+                            <div class="col-md-6 col-lg-6 center-sm center-md center-lg">
+                                <img src="pictures/Path -2@2x.png" alt="" srcset="" class="imm">
                                 <h3>Nike shoes</h3>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 col-lg-6 center-md center-lg">
-                                <img src="pictures/Path -1.png" alt="" srcset="">
-                                <h3>Nike shoes</h3>
+                            <div class="col-md-6 col-lg-6 center-sm center-md center-lg">
+                                <img src="pictures/Path -3@2x.png" alt="" srcset="" class="im">
+                                <h3 class="h3m">Nike shoes</h3>
                             </div>
-                            <div class="col-md-6 col-lg-6 center-md center-lg">
-                                <img src="pictures/Path -2.png" alt="" srcset="">
+                            <div class="col-md-6 col-lg-6 center-sm center-md center-lg">
+                                <img src="pictures/Path -4@2x.png" alt="" srcset="" class="imm">
                                 <h3>Nike shoes</h3>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6 col-lg-6 center-md center-lg">
-                                <img src="pictures/Path -1.png" alt="" srcset="">
+                            <div class="col-md-6 col-lg-6 center-sm center-md center-lg">
+                                <img src="pictures/Path -5@2x.png" alt="" srcset="" class="im">
+                                <h3 class="h3m">Nike shoes</h3>
+                            </div>
+                            <div class="col-md-6 col-lg-6 center-sm center-md center-lg">
+                                <img src="pictures/Path -6@2x.png" alt="" srcset="" class="imm">
                                 <h3>Nike shoes</h3>
                             </div>
-                            <div class="col-md-6 col-lg-6 center-md center-lg">
-                                <img src="pictures/Path -2.png" alt="" srcset="">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 center-sm center-md center-lg">
+                                <img src="pictures/Path 24@2x.png" alt="" srcset="" class="im">
+                                <h3 class="h3m">Nike shoes</h3>
+                            </div>
+                            <div class="col-md-6 col-lg-6 center-sm center-md center-lg">
+                                <img src="pictures/Path 24@2x.png" alt="" srcset="" class="imm">
                                 <h3>Nike shoes</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6">
+                    <div class="col-md-6 col-lg-6 view">
                         <!-- Viewer -->
-                        Viewer
+                        <img src="pictures/Rectangle 51@2x.png" alt="" srcset="" class="sp-img">
+                        <div class="row">
+                            <i class="fa fa-picture-o" aria-hidden="true"></i> <i class="fa fa-step-backward" aria-hidden="true"></i><i class="fa fa-play" aria-hidden="true"></i>
+                            <i class="fa fa-step-forward" aria-hidden="true"></i> <i class="fas fa-ellipsis-v"></i>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <hr>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <h1 style="text-align: center;">Nike Shoes 5</h1>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <hr>
+                            </div>
+
+                        </div>
+                        <div class="row cool">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>Format<span class="sp1">:</span></h3>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>JPEG</h3>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>Dimension<span class="sp2">:</span></h3>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>1600 x 1194</h3>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>Size<span class="sp3">:</span></h3>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>128 KB</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <hr>
+                        </div>
+                        <div class="row cool">
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>Created<span class="sp1">:</span></h3>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>Jan 13, 17; 4:43 PM</h3>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>Modified<span class="sp2">:</span></h3>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6">
+                                <h3>Jan 13, 17; 4:43 PM</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -119,6 +176,7 @@
 
 
 <script src="https://use.fontawesome.com/ef6f30b6bd.js%22%3E"></script>
+<script src="https://kit.fontawesome.com/a6cfec0f45.js" crossorigin="anonymous"></script>
 
     <script src="js/main.js"></script>
 </body>
